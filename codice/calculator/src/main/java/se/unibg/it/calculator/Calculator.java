@@ -12,4 +12,11 @@ public class Calculator {
 		}
 		return x * y;
 	}
+	// divide two numbers
+	static double divide(int x, int y) {
+		if (y == 0) {
+			throw new IllegalArgumentException("Cannot divide by zero");
+		}
+		return (double) x / y;
+	}
 }
