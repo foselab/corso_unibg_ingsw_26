@@ -7,6 +7,9 @@ public class Calculator {
 	}
 	// question: what is the product of two numbers?
 	static int product(int x, int y) {
+		if (x == 0 || y == 0) {
+			return 0;
+		}
 		return x * y;
 	}
 }
