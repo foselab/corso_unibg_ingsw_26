@@ -1,6 +1,8 @@
 package se.unibg.it.calculator;
 
-public class Calculator {
+class Calculator {
+	
+	int y;
 
 	static int sum(int x, int y, int w) {
 		return x + y;
